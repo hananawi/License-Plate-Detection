@@ -1,0 +1,45 @@
+.create-labels {
+
+    position: relative;
+
+    > img {
+        display: block;
+        width: 60vmin;
+        height: 60vmin;
+        margin: auto;
+    }
+
+    canvas {
+        display: block;
+        // width: 60vmin;
+        // height: 60vmin;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        cursor: pointer;
+    }
+
+    > svg {
+        display: block;
+        margin: auto;
+        width: 60vmin;
+        height: 60vmin;
+    }
+
+    input[type=file] {
+        display: none;
+    }
+
+    
+    .filename, .menu {
+        text-align: center;
+    }
+
+    .menu {
+        > button {
+            padding: 1rem;
+        }
+    }
+}

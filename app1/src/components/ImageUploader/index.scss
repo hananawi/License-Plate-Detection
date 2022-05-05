@@ -1,0 +1,43 @@
+.image-uploader {
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 70vmin;
+  max-height: 70vmin;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  .icon {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > img {
+      display: inline-block;
+      width: 60%;
+      height: 60%;
+    }
+
+    .desc {
+      font-size: 2em;
+    }
+  }
+
+  .preview {
+    flex-grow: 1;
+
+    > img {
+      width: 95%;
+      height: auto;
+    }
+
+    > div {
+      font-size: 2em;
+      padding: 1rem;
+    }
+  }
+}
